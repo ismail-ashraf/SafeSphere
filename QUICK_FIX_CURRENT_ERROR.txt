@@ -1,0 +1,13 @@
+Current fix:
+- PyTorch .pt files can appear as "Compressed (zipped) Folder" in Windows.
+- The backend now does NOT extract distilbert_sequential_master.pt.zip if the filename contains .pt.
+- Keep your TOXICITY_MODEL_PATH as:
+  C:\Users\chann\Downloads\distilbert_sequential_master.pt.zip
+  OR rename the file and use:
+  C:\Users\chann\Downloads\distilbert_sequential_master.pt
+
+Run:
+1) START_BACKEND.bat
+2) START_FRONTEND.bat
+
+If text_ready=True and image_ready=False, the text model is working but image model is not ready because Copy_of_Violence.ipynb is a notebook, not .h5 trained weights.

@@ -223,3 +223,15 @@ backend/model_venv/
 
 
 models_path.env
+
+
+# SafeSphere local runtime
+backend/.runtime_models/
+
+# Node dependencies
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Local frontend env
+frontend/.env
