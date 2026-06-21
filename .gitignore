@@ -220,3 +220,6 @@ __marimo__/
 
 model_venv/
 backend/model_venv/
+
+
+models_path.env
